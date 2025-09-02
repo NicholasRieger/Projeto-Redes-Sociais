@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 html,body {
@@ -37,4 +38,25 @@ main{
     left: 22px;
     width: 269px;
     height: 471px;
+}
+
+#redes-sociais{
+    text-align: right;
+}
+
+#redes-sociais img{
+    border: 3px solid transparent;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(22, 22, 22, 0.400);
+    transition: 
+        transform 0.25s ease,
+        border .3s;
+}
+
+#redes-sociais img:hover{
+    border: 3px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
 }

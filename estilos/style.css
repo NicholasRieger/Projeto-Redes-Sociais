@@ -13,8 +13,7 @@ html,body {
 }
 
 body{
-    background: url('../pacote-d013/imagens/fundo-madeira.jpg') no-repeat top center;
-    backgr
+    background: url('../pacote-d013/imagens/fundo-madeira.jpg') top center / cover;
 }
 
 main{
@@ -30,4 +29,12 @@ main{
     height: 627px;
     width: 311px;
     background: url(../pacote-d013/imagens/frame-iphone.png) top center / cover no-repeat fixed;
+}
+
+#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
